@@ -1,5 +1,12 @@
 server:
   port: 8761
+  
+security:  
+  basic:  
+    enabled: true  
+  user:  
+    name: admin  
+    password: admin123
 
 eureka:
   instance:
